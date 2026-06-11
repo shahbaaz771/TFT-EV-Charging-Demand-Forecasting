@@ -137,16 +137,6 @@ The TFT model consistently outperformed baseline approaches including:
 
 ---
 
-## Paper
-
-The full conference paper is available in:
-
-```text
-paper/Temporal_Fusion_Transformer_EV_Forecasting.pdf
-```
-
----
-
 ## Code Availability
 
 The implementation used in this study is not publicly released at this time.
@@ -162,11 +152,19 @@ Researchers interested in collaboration or further details are welcome to contac
 If you use this work, please cite:
 
 ```bibtex
-@inproceedings{sadiq2025tft,
-  title={Temporal Fusion Transformer-Based Framework for Electric Vehicle Charging Demand Forecasting},
-  author={El-Alfy, El-Sayed M. and Sadiq, Shahbaaz A. and Ayub, Mohammed and Nurnoby, M. Faisal},
-  booktitle={The 2nd International Conference on Smart Mobility and Logistics Ecosystems (SMiLE)},
-  year={2025}
+@article{ELALFY2026868,
+title = {Temporal Fusion Transformer-Based Framework for Electric Vehicle Charging Demand Forecasting},
+journal = {Transportation Research Procedia},
+volume = {96},
+pages = {868-875},
+year = {2026},
+note = {TRPRO_SMILE 2026},
+issn = {2352-1465},
+doi = {https://doi.org/10.1016/j.trpro.2026.04.067},
+url = {https://www.sciencedirect.com/science/article/pii/S2352146526003285},
+author = {El-Sayed M. El-Alfy and Shahbaaz A. Sadiq and Mohammed Ayub and M Faisal Nurnoby},
+keywords = {Electric vehicle, Charging demand, Temporal Fusion Transformer, Forecasting, Multi-horizon},
+abstract = {Traditional forecasting approaches struggle to accurately model the high temporal volatility of electric vehicle (EV) charging demand, which is influenced by factors such as socioeconomic conditions, seasonal cycles, and regulatory incentives. In this paper, we present a Temporal Fusion Transformer (TFT)-based predictive modeling framework for short-term, multi-horizon forecasting of station-level occupancy rates. The model combines static station metadata, known-future calendar/tariff signals, and observed-past local history with spatial neighbor aggregates to provide attention-based interpretability through variable selection and masked, interpretable multi-head attention. Evaluated on the ST-EVCDP dataset, the TFT-based model achieved very high accuracy when compared to other methods across nine stations at 5-minute resolution with an average Mean Absolute Error (MAE) of 0.0064 and a high Coefficient of Determination (R2) of 0.959, indicating outstanding predictive performance.}
 }
 ```
 
