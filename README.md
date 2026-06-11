@@ -130,7 +130,7 @@ The proposed forecasting framework is based on the Temporal Fusion Transformer (
 The figure below illustrates one-step-ahead occupancy rate forecasting for nine representative charging stations. The TFT model closely tracks the actual occupancy rates during the testing period.
 
 <p align="center">
-  <img src="Pictures/forecasted_results.png" width="1000">
+  <img src="Pictures/forecasted_signals.png" width="1000">
 </p>
 
 **Figure 2.** Actual versus forecasted occupancy rates across nine charging stations.
