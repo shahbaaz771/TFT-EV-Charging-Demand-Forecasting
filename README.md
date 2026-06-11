@@ -86,7 +86,15 @@ Target variable:
 
 ## Methodology
 
-The proposed framework leverages the Temporal Fusion Transformer (TFT) architecture and incorporates:
+The proposed forecasting framework is based on the Temporal Fusion Transformer (TFT) architecture. The model combines static station metadata, historical observations, and known future information to generate interpretable multi-horizon forecasts.
+
+<p align="center">
+  <img src="Pictures/System Architecture.jpg" width="900">
+</p>
+
+**Figure 1.** Temporal Fusion Transformer architecture used for EV charging demand forecasting.
+
+---
 
 ### Static Features
 
@@ -117,8 +125,16 @@ The proposed framework leverages the Temporal Fusion Transformer (TFT) architect
 * Quantile Forecasting Layer
 
 ---
+## Forecasting Results
 
-## Results
+The figure below illustrates one-step-ahead occupancy rate forecasting for nine representative charging stations. The TFT model closely tracks the actual occupancy rates during the testing period.
+
+<p align="center">
+  <img src="Pictures/forecasted_results.png" width="1000">
+</p>
+
+**Figure 2.** Actual versus forecasted occupancy rates across nine charging stations.
+
 
 Average performance across nine representative charging stations:
 
