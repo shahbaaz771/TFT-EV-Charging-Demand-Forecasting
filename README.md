@@ -1,7 +1,7 @@
 # Temporal Fusion Transformer-Based Framework for Electric Vehicle Charging Demand Forecasting
 
-[![Conference](https://img.shields.io/badge/Conference-SMiLE%202025-blue)]()
-[![License](https://img.shields.io/badge/License-MIT-green)]()
+[![Conference]([https://img.shields.io/badge/Conference-SMiLE%202025-blue](https://smileconf.com/en))]()
+[![Paper]([https://img.shields.io/badge/License-MIT-green](https://www.sciencedirect.com/science/article/pii/S2352146526003285))]()
 
 ## Overview
 
